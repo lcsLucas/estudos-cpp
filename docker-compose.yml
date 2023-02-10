@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  clang-cpp:
+    image: clang-cpp
+    container_name: clang-cpp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
