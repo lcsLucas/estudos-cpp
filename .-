@@ -1,0 +1,1 @@
+clang++ -std=c++2a -pedantic-errors -Weffc++ -Wsign-conversion -Wall -Wextra -Werror -o [[filename]] [[source_file]]
